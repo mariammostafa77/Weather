@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="160dp"
+    android:layout_marginVertical="10dp"
+    android:layout_marginStart="10dp"
+    android:backgroundTint="#720D1429"
+    app:cardCornerRadius="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/tvHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/imgDesc"
+            app:layout_constraintEnd_toEndOf="@+id/imgDesc"
+            app:layout_constraintStart_toStartOf="@+id/imgDesc"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgDesc"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/tvHourlyDesc"
+            app:layout_constraintEnd_toEndOf="@+id/tvHourlyDesc"
+            app:layout_constraintStart_toStartOf="@+id/tvHourlyDesc"
+            app:layout_constraintTop_toBottomOf="@+id/tvHour"
+            app:srcCompat="@drawable/alert" />
+
+        <TextView
+            android:id="@+id/tvHourlyTemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/tvHourlyDesc"
+            app:layout_constraintStart_toStartOf="@+id/tvHourlyDesc"
+            app:layout_constraintTop_toBottomOf="@+id/tvHourlyDesc" />
+
+        <TextView
+            android:id="@+id/tvHourlyDesc"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/tvHourlyTemp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgDesc" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

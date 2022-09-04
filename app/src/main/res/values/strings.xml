@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="preference_file_key">WeatherAPPSetting</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="Home">Home</string>
+    <string name="Alerts">Alerts</string>
+    <string name="Favourite">Favourite</string>
+    <string name="Setting">Setting</string>
+    <string name="LocationMode">Location Mode</string>
+    <string name="Language">Language</string>
+    <string name="English">English</string>
+    <string name="Arabic">Arabic</string>
+    <string name="TemperatureUnit">Temperature Unit</string>
+    <string name="Kelvin">Kelvin (K°)</string>
+    <string name="Kelvin2">°k</string>
+    <string name="Celsius">Celsius (C°)</string>
+    <string name="Celsius2">°c</string>
+    <string name="Fahrenheit">Fahrenheit (F°)</string>
+    <string name="Fahrenheit2">°F</string>
+    <string name="windSpeed">"Wind Speed Unit "</string>
+    <string name="meterSec">meter/sec</string>
+    <string name="milesHour">miles/hour</string>
+    <string name="GPS">GPS</string>
+    <string name="Map">Map</string>
+    <string name="Humidity">Humidity</string>
+    <string name="Preciption">Precipitation</string>
+    <string name="Cloud">Cloud</string>
+    <string name="Pressure">Pressure</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="uvi">UVI</string>
+    <string name="Hourly">Hourly Forecast</string>
+    <string name="DailyForecast">Daily Forecast</string>
+    <string name="visibility">Visibility</string>
+    <string name="favourit_screen">Your Fav Locations</string>
+    <string name="StartDate">StartDate</string>
+    <string name="EndDate">EndDate</string>
+    <string name="ChooseLocation">Choose Location</string>
+    <string name="Save">Save</string>
+    <string name="title_activity_my_map">MyMap</string>
+    <string name="addFav">addFav</string>
+    <string name="Search">Search</string>
+    <string name="OK">OK</string>
+    <string name="title_activity_fav_loc_info">FavLocInfoActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_mpactivity">MPActivity</string>
+    <string name="go_to_location_settings_dialog_title">Request to open location ٍsettings</string>
+    <string name="go_to_location_settings_dialog_msg">please allow go to ٍsettings and open location </string>
+    <string name="Details">Details</string>
+    <string name="Hours48">48 Hours</string>
+    <string name="wind_deg">wind_deg</string>
+    <string name="alert_screen_title">Your alerts</string>
+    <string name="delete_confirm">Are you sure to delete this location?</string>
+    <string name="delete_confirm_alert">Are you sure to delete this alert?</string>
+    <string name="alertDialogTitle">Select location</string>
+    <string name="selectedLocation">Selected Location</string>
+    <string name="time">Time</string>
+    <string name="exampleDate">ex.7/7/2025</string>
+    <string name="exampleTime">ex. 09:30</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="weather_alarm">Weather Alarm</string>
+    <string name="weather_desc">Weather Description</string>
+    <string name="offline_mode">You are in oflfline mode now</string>
+
+
+</resources>
